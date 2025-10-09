@@ -12,6 +12,17 @@ chmod 700 ~/.ssh
 ls -al ~/grep|.ssh
 ```
 
+## ¿Cómo crear una copia de seguridad de los .ssh?
+``` Code
+# Backup
+cp -r ~/.ssh ~/.ssh_backup
+```
+``` Code
+# Si quieres empezar desde cero, puedes hacer backup y eliminar todo
+cp -r ~/.ssh ~/.ssh_backup
+rm -rf ~/.ssh
+```
+
 ## ¿Cómo visualizar los archivos SSH?
 ``` Code
 ls -al ~/.ssh
