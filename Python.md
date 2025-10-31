@@ -52,6 +52,11 @@ pip install flask
 ```
 
 ``` Code
+# instalar dotenv
+pip install python-dotenv
+```
+
+``` Code
 # instalar Django
 py -m pip install Django==#version
 # revisar la pagina oficial de Django "https://www.djangoproject.com/download/"
