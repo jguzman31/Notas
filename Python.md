@@ -57,6 +57,26 @@ pip install python-dotenv
 ```
 
 ``` Code
+# instalar requests
+pip install requests
+```
+
+``` Code
+# instalar selenium scrapper
+pip install selenium
+```
+
+``` Code
+# instalar selenium conexión con PostgreSQL
+pip install psycopg2
+```
+
+``` Code
+# instalar selenium conexión con PostgreSQL otras dependencias
+pip install psycopg2-binary
+```
+
+``` Code
 # instalar Django
 py -m pip install Django==#version
 # revisar la pagina oficial de Django "https://www.djangoproject.com/download/"
