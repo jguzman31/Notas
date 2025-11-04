@@ -67,12 +67,12 @@ pip install selenium
 ```
 
 ``` Code
-# instalar selenium conexión con PostgreSQL
+# instalar conexión con PostgreSQL
 pip install psycopg2
 ```
 
 ``` Code
-# instalar selenium conexión con PostgreSQL otras dependencias
+# instalar conexión con PostgreSQL otras dependencias
 pip install psycopg2-binary
 ```
 
