@@ -14,13 +14,25 @@ Subir repositorio
 git init
 ```
 ```
+git remote add origin https://github.com/<username>/<repository_name>.git
+```
+```
+git add .
+```
+```
 git add .gitignore
 ```
 ```
 git commit -m ""
 ```
 ```
-git push -u origin main
+git push -u origin main # Primera vez
+```
+```
+git push # Envíos posteriores
+```
+```
+git pull origin main
 ```
 
 Eliminar carpeta completa
