@@ -77,6 +77,16 @@ pip install psycopg2-binary
 ```
 
 ``` Code
+# instalar conexión con MySQL
+pip install mysql-connector-python
+```
+
+``` Code
+# instalar pymysql
+pip install pymysql
+```
+
+``` Code
 # instalar Django
 py -m pip install Django==#version
 # revisar la pagina oficial de Django "https://www.djangoproject.com/download/"
