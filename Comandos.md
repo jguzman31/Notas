@@ -1,5 +1,5 @@
 # Comandos por consola
-`Visualizar carpetas creadas`
+### Visualizar carpetas creadas
 ```
 dir
 ```
@@ -7,7 +7,7 @@ dir
 ls
 ```
 
-`Crear una carpeta`
+### Crear una carpeta
 ```
 mkdir "ruta\destino"
 ```
@@ -15,16 +15,16 @@ mkdir "ruta\destino"
 mkdir carpeta1 carpeta2
 ```
 
-`Eliminar una carpeta`
+### Eliminar una carpeta
 ```
 sudo rm -rf folderName
 ```
-`Eliminar un archivo`
+### Eliminar un archivo
 ```
 sudo rm fileName
 ```
 
-`Mover carpeta`
+### Mover carpeta
 
 Windows CMD
 ```
@@ -56,7 +56,7 @@ sudo mv rutaOriente rutaDestino
 sudo mv ~/folderName /var/www/
 ```
 
-## Ocultar o visualizar un archivo o carpeta como administrador
+# Ocultar o visualizar un archivo o carpeta como administrador
 ``-S`` = Quitar atributo de Sistema
 
 ``-H`` = Quitar atributo de Oculto
