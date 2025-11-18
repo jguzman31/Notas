@@ -1,32 +1,58 @@
-## Visualizar Carpetas Creadas
+# Comandos por consola
+`Visualizar carpetas creadas`
 ```
-# CMD
 dir
 ```
-## Crear una Carpeta
 ```
-# CMD
-mkdir "ruta\destino"
+ls
 ```
 
-## Mover Carpeta
-``
+`Crear una carpeta`
+```
+mkdir "ruta\destino"
+```
+```
+mkdir carpeta1 carpeta2
+```
+
+`Eliminar una carpeta`
+```
+sudo rm -rf folderName
+```
+`Eliminar un archivo`
+```
+sudo rm fileName
+```
+
+`Mover carpeta`
+
+Windows CMD
+```
 move origen destino
-``
-### Windows CMD
+```
 ```
 move "C:\Users\<username>\<folderName>" "D:\<folderName>"
 ```
-### Windows PowerShell
+
+Windows PowerShell
 ```
 Move-Item "C:\Users\<username>\<folderName>" "D:\<folderName>"
 ```
 ```
 mv "C:\Users\<username>\<folderName>" "D:\<folderName>"
 ```
-### Linux
+
+Linux
+```
+scp -r "rutaOrigen" username@ipaddress:/rutaDestino
+```
+```
+scp -r "./esculapio" super@192.168.12.61:/var/www/
+```
 ```
 sudo mv rutaOriente rutaDestino
+```
+```
 sudo mv ~/folderName /var/www/
 ```
 
