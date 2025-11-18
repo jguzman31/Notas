@@ -48,6 +48,17 @@ ssh-keygen -t ed25519 -C "correo@domain.com" -f ~/.ssh/id_ed25519_<user_name>
 ssh-keygen -t rsa -b 4096 -C "correo@domain.com" -f ~/.ssh/id_rsa_<user_name>
 ```
 
+## ¿Cómo eliminar la clave SSH?
+`Eliminar la clave privada`
+```
+rm ~/.ssh/id_ed25519
+```
+
+`Eliminar la clave pública`
+```
+rm ~/.ssh/id_ed25519.pub
+```
+
 ## ¿Cómo asignar permiso a la clave SSH?
 ``` Permission
 # Iniciar el agente SSH en segundo plano
