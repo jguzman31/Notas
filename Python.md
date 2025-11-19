@@ -15,6 +15,11 @@ virtualenv -p python3 env
 ```
 
 ``` Code
+# activar entorno virtual
+source env/bin/activate
+```
+
+``` Code
 # desactivar entorno virtual
 deactivate
 ```
