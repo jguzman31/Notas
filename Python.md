@@ -40,6 +40,11 @@ python .\src\app.py
 ```
 
 ``` Code
+# ejecutar py (es necesario estar dentro del entorno)
+python src/app.py
+```
+
+``` Code
 # exportar los paquetes instalados en el proyecto
 pip freeze > requirements.txt
 ```
@@ -47,6 +52,11 @@ pip freeze > requirements.txt
 ``` Code
 # importar los paquetes del proyecto
 pip install -r .\requirements.txt
+```
+
+``` Code
+# importar los paquetes del proyecto
+pip install -r requirements.txt
 ```
 
 
