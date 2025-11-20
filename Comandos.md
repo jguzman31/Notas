@@ -84,3 +84,11 @@ attrib -S -H "ruta\a\tu\archivo"
 # Desde CMD como Administrador
 attrib -S -H "C:\TuCarpeta"
 ```
+
+# Habilitar puerto en la VM
+```
+sudo ufw status
+```
+```
+sudo ufw allow <port>
+```
